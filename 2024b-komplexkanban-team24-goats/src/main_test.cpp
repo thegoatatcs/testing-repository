@@ -39,5 +39,9 @@ TEST_CASE("Quick Catch2 test on Factorial", "[Factorial]")
   REQUIRE(Factorial(4) == 24);
   REQUIRE(Factorial(5) == 120);
 }
+TEST_CASE("Testing complex subtraction", "[Subtraction]"){
+    cout<<"Testing complex subtraction"<<endl;
+    cout<<"hi";
+}
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
